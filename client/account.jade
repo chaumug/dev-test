@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACME</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/acme.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="container acct">
+<img src="img/acme2.png" alt="ACME" width="376" />
+
+<div class="col-md-12"><p>Welcome #{name.first} #{name.last} </p></div>
+<div class="col-md-12 center">Current Balance:<br> #{balance} </div>
+
+<div class="col-md-4 profile">
+img(src="#{picture}")
+</div>
+
+<div class="col-md-8">
+<p>Age: #{age} </p>
+<p>Eye Color: #{eyeColor} </p>
+<p>Company: #{company} </p>
+</div>
+
+<div class="col-md-12"><p>Email: #{email} </p></div>
+<div class="col-md-12"><p>Phone: #{phone} </p></div>
+<div class="col-md-12"><p>Address: #{address} </p></div>
+
+
+</div>
+</body>
+</html>
